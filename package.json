@@ -1,0 +1,9 @@
+{
+    "name": "Distil bot",
+    "version": "0.1.0",
+    "dependencies": {
+        "google-images": "^2.0.0",
+        "discordie": "^0.10.0"
+    },
+    "author": "Distil"
+}
