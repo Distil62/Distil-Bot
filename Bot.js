@@ -26,7 +26,7 @@ Discordie = require("discordie");
 Gimage = require("google-images");
 Events = Discordie.Events;
 Client = new Discordie();
-api = 5;
+api = 0;
 
 let client;
 ThisAPI();
