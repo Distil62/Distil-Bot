@@ -13,3 +13,8 @@
 ===|																			|===<br>
 ====================================================================================<br>
 ===|																			|===<br>
+
+
+<h5>TODO LIST</h5>
+<p>Ajouter un lecteur audio avec ce module.</p>
+https://www.npmjs.com/package/soundify
