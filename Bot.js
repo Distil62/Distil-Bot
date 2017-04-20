@@ -12,17 +12,17 @@ var allAPI;
 
 var GO = function()
 {
-  allAPI = ["AIzaSyANzMgvaeDqsIXoau-PGebu46kM4ouZfRY",
-            "AIzaSyBT6T6PicCiF0nTqziYSXGzyL76r5t91WI",
-            "AIzaSyB-Po_UnRELlvnMsgz7hF3MTL_2HoVcYOo",
-            "AIzaSyBlwcvqY9fVwN0xQWYLp97B3RvH670MtKU",
-            "AIzaSyAzgB7uqtRX9u1LdPg1999sRg6J49o0_P0",
-            "AIzaSyBusEbxmUfraGv1tR_bpOL0_g7cVKlWUMU",
-            "AIzaSyDopS9bynWeVhmcEecuDbWsxCXwu_y2eFo",
-            "AIzaSyDXAupug1AobGi4DVpyWN5V9XW35kO0j-w",
-            "AIzaSyB8cM8GIdeeT3rXlCvA3XV-pr9jI7Sba1k",
-            "AIzaSyA8VnctSd4Bd7i9ZePW7AG1PSxbSBVLYX8",
-            "AIzaSyCHbQPE6kBp2I8mYK3x_9LExRR3hjoAVp0"];
+  allAPI = ["GOOGLE API KEY",
+            "GOOGLE API KEY",
+            "GOOGLE API KEY",
+            "GOOGLE API KEY",
+            "GOOGLE API KEY",
+            "GOOGLE API KEY",
+            "GOOGLE API KEY",
+            "GOOGLE API KEY",
+            "GOOGLE API KEY",
+            "GOOGLE API KEY",
+            "GOOGLE API KEY"]; //https://cse.google.com/cse
 
   Discordie = require("discordie");
   Gimage = require("google-images");
@@ -60,7 +60,7 @@ var GO = function()
   }
 
   Client.connect({
-    token: "MjYzNjYwMDA2OTM3ODUzOTUy.C1Eepg.YGZykZciyzswev__DWguROHvS_I"
+    token: "BOT TOKEN"
   });
 
   Client.Dispatcher.on(Events.GATEWAY_READY, e => {
